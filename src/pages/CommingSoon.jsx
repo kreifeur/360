@@ -6,8 +6,8 @@ const CommingSoon = () => {
   return (
     <div className="h-screen  w-full text-white bg-black">
       <Navbar />
-      <div className="w-full h-[85vh] flex items-center px-[20vh]">
-        <div className="w-[35%] flex flex-col gap-4">
+      <div className="w-full h-[85vh] flex items-center md:px-[20vh] px-4">
+        <div className="md:w-[35%] w-[100%] flex flex-col gap-5 md:gap-4">
           <div className="font-bold text-3xl">All in one, find all the world wide in one place</div>
           <div>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis

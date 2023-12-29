@@ -1,4 +1,5 @@
 import React from 'react'
+import { IoMdMenu } from "react-icons/io";
 
 const Navbar = () => {
   return (
@@ -6,7 +7,7 @@ const Navbar = () => {
         <div>
             WORLD360.SA
         </div>
-        <ul className='flex gap-5'>
+        <ul className='md:flex hidden gap-5'>
             <li>
                 HOME
             </li>
@@ -17,6 +18,10 @@ const Navbar = () => {
                 ABOUT US
             </li>
         </ul>
+
+        <div className='flex md:hidden text-2xl'>
+        <IoMdMenu />
+        </div>
     </nav>
   )
 }
