@@ -6,7 +6,7 @@ import videoCover from "../assets/cover.mp4";
 const CommingSoon = () => {
   return (
     <div className="h-screen  w-full text-white bg-black overflow-hidden relative">
-      <video autoPlay type="video/mp4" muted  className=" w-[100vw]  " src={videoCover}></video>
+      <video autoPlay type="video/mp4" muted  className="object-cover absolute inset-0 h-full w-full" src={videoCover}></video>
       <div className="absolute inset-0">
         <Navbar />
         <div className="w-full h-[85vh] flex items-center md:px-[20vh] px-4 z-[10] ">
